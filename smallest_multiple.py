@@ -22,3 +22,5 @@ def smallest_divisible_by_one_to_twenty():
 
 
 smallest_divisible_by_one_to_twenty()
+
+# this took just over 5 minutes to brute force it, there must be a better way.
