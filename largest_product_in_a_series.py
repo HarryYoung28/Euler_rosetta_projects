@@ -30,7 +30,9 @@ long_number_list = [
 biggest_result = 0
 count = 0
 for index, item in enumerate(long_number_list):
+    # breaks down into index and value
     print(index, item)
+    # count prevents the list from getting "out of index" error
     if count == 988:
         break
     result = (item * long_number_list[index + 1] * long_number_list[index + 2] * long_number_list[index + 3] *
